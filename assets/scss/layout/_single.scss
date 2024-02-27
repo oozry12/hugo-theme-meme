@@ -84,6 +84,19 @@ blockquote {
         }
     }
 }
+blockquote::before{ 
+  position: relative; 
+  content:"\201C";
+  margin-left:-.5em;
+	//top:10px;
+  font-size: 2rem;
+  color: var(--colors-primary); 
+  line-height: .01em; 
+  //top: 1.5rem;
+  font-weight: bold; 
+  vertical-align: -.3em;
+} 
+
 
 .drop-cap {
     float: left;
