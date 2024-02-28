@@ -35,15 +35,6 @@
         right: 5%;
         text-align: center;
     }
-    .avatar {
-        width: 8em;
-        height: 8em;
-        border-radius: 50%;
-        transition: transform 1s ease-out;
-        &:hover {
-            transform: rotateZ(360deg);
-        }
-    }
     h1 {
         color: #fff;
         font-size: 1.7em;
